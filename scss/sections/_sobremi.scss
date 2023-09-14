@@ -1,31 +1,30 @@
 #main_sobremi {
-    .derecha {
-        .titulo_sobremi {
-            text-align: right;
-                     font-family: 'Work Sans', sans-serif;
-            font-size: 80px;
-            max-width: 50rem;
-            margin-left: 30.5rem;
-        }
-
-        .p_sobremi {
-            font-family: 'Montserrat', sans-serif;
-            /* padding-left: 10px; */
-            display: inline-block;
-            position: absolute;
-            right: 15%;
-            text-align: right;
-            max-width: 40rem;
-                       padding-top: 45px;
-           
-        
-        }
+    .titulo_sobremi {
+        text-align: right;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 80px;
+        max-width: 50rem;
+        margin-left: 30.5rem;
     }
+
+    .p_sobremi {
+        font-family: 'Montserrat', sans-serif;
+        /* padding-left: 10px; */
+        display: inline-block;
+        position: absolute;
+        right: 15%;
+        text-align: right;
+        max-width: 40rem;
+        padding-top: 45px;
+
+
+    }
+
 
     .img_sobremi {
         width: 400px;
         border-radius: 250px;
-               padding-bottom: 15px;
+        padding-bottom: 15px;
         margin-left: 12rem;
     }
 
@@ -67,9 +66,11 @@
 
     .p_ofrezco {
         font-family: 'Montserrat', sans-serif;
-                max-width: 67rem;
-    margin: auto;
-    text-align: justify;
-    padding-bottom: 2rem;
+        max-width: 67rem;
+        margin: auto;
+        text-align: justify;
+        padding-bottom: 2rem;
     }
+
+
 }

@@ -147,14 +147,14 @@ li:hover {
       display: flex;
       margin: auto; } }
 
-#main_sobremi .derecha .titulo_sobremi {
+#main_sobremi .titulo_sobremi {
   text-align: right;
   font-family: 'Work Sans', sans-serif;
   font-size: 80px;
   max-width: 50rem;
   margin-left: 30.5rem; }
 
-#main_sobremi .derecha .p_sobremi {
+#main_sobremi .p_sobremi {
   font-family: 'Montserrat', sans-serif;
   /* padding-left: 10px; */
   display: inline-block;

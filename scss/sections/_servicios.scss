@@ -25,9 +25,9 @@ main {
     .main-servicios {
         display: grid;
         max-width: 74rem;
-                margin: auto;
+        margin: auto;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-                grid-template-areas:
+        grid-template-areas:
             "kinesiologia kinesiologia kinesiologia img_kinesio"
             "img_pilates pilates pilates pilates"
             "fisio fisio fisio img_fisio"
