@@ -30,7 +30,7 @@
                     text-decoration: none;
                     display: flex;
                     margin: 0 20px;
-                    
+
                 }
 
             }
@@ -41,14 +41,12 @@
 }
 
 
-
-
 /* Pseudoclases: hover */
 
 li:hover {
     background-color: rgb(140, 98, 248);
     border-radius: 15%;
-       transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 
