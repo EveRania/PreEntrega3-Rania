@@ -35,7 +35,8 @@
 /* Pseudoclases: hover */
 li:hover {
   background-color: #8c62f8;
-  border-radius: 15%; }
+  border-radius: 15%;
+  will-change: transform; }
 
 @media (max-width: 1000px) {
   .header {
@@ -356,10 +357,13 @@ main .main-servicios {
       list-style: none; }
   .footer .obras_sociales img {
     width: 250px; }
-  .footer .redes_sociales a {
-    color: #eaeaea;
-    list-style: none;
-    text-decoration: none; }
+  .footer .redes_sociales .iconos_rs {
+    display: flex;
+    justify-content: space-evenly; }
+    .footer .redes_sociales .iconos_rs a {
+      color: #eaeaea;
+      list-style: none;
+      text-decoration: none; }
 
 /* Mobile Last */
 @media (max-width: 1000px) {

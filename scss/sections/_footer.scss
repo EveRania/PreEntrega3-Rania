@@ -45,10 +45,15 @@
     }
 
     .redes_sociales {
-        a {
-            color: #eaeaea;
-            list-style: none;
-            text-decoration: none;
+        .iconos_rs {
+            display: flex;
+            justify-content: space-evenly;
+
+            a {
+                color: #eaeaea;
+                list-style: none;
+                text-decoration: none;
+            }
         }
 
     }
