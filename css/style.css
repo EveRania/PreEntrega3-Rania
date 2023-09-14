@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
-/* font-family: 'Work Sans', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+.verde {
+  background-color: #619b8a;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* font-family: 'Work Sans', sans-serif; */
 /* font-family: 'Montserrat', sans-serif; */
 * {
   margin: 0;
@@ -105,9 +114,6 @@ li:hover {
     font-size: 15px; }
   #main_index .main_index {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 1.5fr 1fr;
-    gap: 0px 0px;
     grid-template-areas: "h1 h1 h1" "h2 h2 h2" "subtexto subtexto subtexto" "button button button"; }
   #main_index .h1 {
     grid-area: h1; }
@@ -125,45 +131,50 @@ li:hover {
   #main_index .presentacion {
     background-image: none;
     background-color: #9a7ee2;
-    padding-left: 20vw; }
-  #main_index #main_index h1, #main_index #main_index .h1,
-  #main_index h1,
-  #main_index .h1 {
-    font-size: 50px;
-    text-align: center; }
-  #main_index #main_index h2, #main_index #main_index .h2,
-  #main_index h2,
-  #main_index .h2 {
-    font-size: 35px;
-    text-align: center; } }
+    max-width: 100%; }
+    #main_index .presentacion .h1 {
+      font-size: 50px;
+      text-align: center; }
+    #main_index .presentacion .h2 {
+      font-size: 30px;
+      text-align: center; }
+    #main_index .presentacion .subtexto {
+      text-align: center;
+      padding: 0 0 1rem 0; }
+    #main_index .presentacion a {
+      text-decoration: none; }
+    #main_index .presentacion button {
+      display: flex;
+      margin: auto; } }
 
 #main_sobremi .derecha .titulo_sobremi {
   text-align: right;
-  padding-right: 30px;
   font-family: 'Work Sans', sans-serif;
-  font-size: 90px; }
+  font-size: 80px;
+  max-width: 50rem;
+  margin-left: 30.5rem; }
 
 #main_sobremi .derecha .p_sobremi {
   font-family: 'Montserrat', sans-serif;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   display: inline-block;
   position: absolute;
-  right: 0%;
+  right: 15%;
   text-align: right;
-  width: 50%;
-  padding-right: 30px;
+  max-width: 40rem;
   padding-top: 45px; }
 
 #main_sobremi .img_sobremi {
   width: 400px;
   border-radius: 250px;
-  padding-left: 50px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  margin-left: 12rem; }
 
 #main_sobremi .botones {
   position: absolute;
   right: 100px;
-  top: 500px; }
+  top: 500px;
+  margin-right: 13.5rem; }
   #main_sobremi .botones button {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -192,21 +203,15 @@ li:hover {
 
 #main_sobremi .p_ofrezco {
   font-family: 'Montserrat', sans-serif;
-  padding-left: 10px; }
+  max-width: 67rem;
+  margin: auto;
+  text-align: justify;
+  padding-bottom: 2rem; }
 
 main h1, main .h1 {
   font-family: 'Work Sans', sans-serif;
-  font-size: 90px;
+  font-size: 80px;
   text-align: center; }
-
-main .verde {
-  background-color: #619b8a;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px; }
 
 main p {
   font-family: 'Montserrat', sans-serif;
@@ -224,12 +229,9 @@ main button {
 
 main .main-servicios {
   display: grid;
-  padding: 70px;
+  max-width: 74rem;
+  margin: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
   grid-template-areas: "kinesiologia kinesiologia kinesiologia img_kinesio" "img_pilates pilates pilates pilates" "fisio fisio fisio img_fisio" "img_drenaje drenaje_linfatico drenaje_linfatico drenaje_linfatico"; }
   main .main-servicios h2, main .main-servicios .h2 {
     font-family: 'Work Sans', sans-serif;
@@ -241,7 +243,8 @@ main .main-servicios {
     width: 500px; }
   main .main-servicios a {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    text-decoration: none; }
   main .main-servicios .izq {
     text-align: left; }
   main .main-servicios .der {
@@ -304,7 +307,11 @@ main .main-servicios {
     main .main-servicios .drenaje_linfatico .p_dren {
       grid-area: p_dren; }
 
-.videos {
+.ejercicios_videos p {
+  max-width: 74rem;
+  margin: auto; }
+
+.ejercicios_videos .videos {
   padding: 20px 0px 20px 170px; }
 
 .turnos {

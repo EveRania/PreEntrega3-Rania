@@ -2,36 +2,38 @@
     .derecha {
         .titulo_sobremi {
             text-align: right;
-            padding-right: 30px;
-            font-family: 'Work Sans', sans-serif;
-            font-size: 90px;
+                     font-family: 'Work Sans', sans-serif;
+            font-size: 80px;
+            max-width: 50rem;
+            margin-left: 30.5rem;
         }
 
         .p_sobremi {
             font-family: 'Montserrat', sans-serif;
-            padding-left: 10px;
+            /* padding-left: 10px; */
             display: inline-block;
             position: absolute;
-            right: 0%;
+            right: 15%;
             text-align: right;
-            width: 50%;
-            padding-right: 30px;
-            padding-top: 45px;
+            max-width: 40rem;
+                       padding-top: 45px;
+           
+        
         }
     }
 
     .img_sobremi {
         width: 400px;
         border-radius: 250px;
-        padding-left: 50px;
-        padding-bottom: 15px;
-
+               padding-bottom: 15px;
+        margin-left: 12rem;
     }
 
     .botones {
         position: absolute;
         right: 100px;
         top: 500px;
+        margin-right: 13.5rem;
 
         button {
             font-family: 'Montserrat', sans-serif;
@@ -65,6 +67,9 @@
 
     .p_ofrezco {
         font-family: 'Montserrat', sans-serif;
-        padding-left: 10px;
+                max-width: 67rem;
+    margin: auto;
+    text-align: justify;
+    padding-bottom: 2rem;
     }
 }
