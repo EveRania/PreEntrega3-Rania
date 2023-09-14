@@ -1,0 +1,70 @@
+#main_sobremi {
+    .derecha {
+        .titulo_sobremi {
+            text-align: right;
+            padding-right: 30px;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 90px;
+        }
+
+        .p_sobremi {
+            font-family: 'Montserrat', sans-serif;
+            padding-left: 10px;
+            display: inline-block;
+            position: absolute;
+            right: 0%;
+            text-align: right;
+            width: 50%;
+            padding-right: 30px;
+            padding-top: 45px;
+        }
+    }
+
+    .img_sobremi {
+        width: 400px;
+        border-radius: 250px;
+        padding-left: 50px;
+        padding-bottom: 15px;
+
+    }
+
+    .botones {
+        position: absolute;
+        right: 100px;
+        top: 500px;
+
+        button {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            color: #eaeaea;
+            background-color: #008db1;
+            size: 30px;
+            padding: 8px;
+            border-radius: 50px;
+            margin: 5px 5px 10px 5px;
+        }
+    }
+
+    .verde {
+        background-color: #619b8a;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .que_te_ofrezco {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .p_ofrezco {
+        font-family: 'Montserrat', sans-serif;
+        padding-left: 10px;
+    }
+}

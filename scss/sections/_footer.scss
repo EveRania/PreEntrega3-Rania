@@ -1,0 +1,98 @@
+.footer {
+    background-color: #8458f0;
+    color: #eaeaea;
+    padding-top: 30px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 15px;
+
+    .categorias .nav_footer ul {
+        padding-left: 0;
+
+        li {
+
+            list-style: none;
+
+            a {
+                color: #eaeaea;
+                text-decoration: none;
+
+            }
+        }
+    }
+
+
+    .info {
+        .logo_footer {
+            width: 200px;
+            padding-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 0;
+
+            li {
+                list-style: none;
+
+            }
+        }
+    }
+
+    .obras_sociales img {
+        width: 250px;
+    }
+
+    .redes_sociales {
+        a {
+            color: #eaeaea;
+            list-style: none;
+            text-decoration: none;
+        }
+
+    }
+
+}
+
+
+
+/* Mobile Last */
+
+
+@media(max-width: 1000px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "obras_sociales"
+            "img_os"
+            "iconos_rs";
+    }
+
+    .obras_sociales {
+        grid-area: obras_sociales;
+    }
+
+    .img_os {
+        grid-area: img_os;
+    }
+
+    .iconos_rs {
+        grid-area: iconos_rs;
+        display: flex;
+        padding: 30px;
+        margin: 0 5%;
+        justify-content: space-evenly;
+    }
+
+    .categorias,
+    .info,
+    .redes_sociales .titulo {
+        display: none;
+    }
+
+    .obras_sociales img {
+        width: 170px;
+    }
+}

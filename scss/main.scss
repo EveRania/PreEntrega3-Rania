@@ -1,0 +1,23 @@
+// Variables
+
+
+// Tipografias
+
+
+// Colores
+
+
+// Resteteo
+@import './recursos/reset';
+
+// Secciones
+@import './sections/header';
+@import './sections/main_index';
+@import './sections/_sobremi';
+@import './sections/servicios';
+@import './sections/ejercicios';
+@import './sections/turnos';
+@import './sections/footer';
+
+// Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

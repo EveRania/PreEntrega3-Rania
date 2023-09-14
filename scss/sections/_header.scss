@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #8458f0;
+
+    .header__logo {
+        width: 300px;
+    }
+
+
+    .nav {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            min-height: 50px;
+            align-items: center;
+
+            li {
+                padding: 5px;
+                display: flex;
+                list-style: none;
+                text-decoration: none;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    display: flex;
+                    margin: 0 20px;
+                }
+
+            }
+        }
+    }
+
+
+}
+
+
+
+
+/* Pseudoclases: hover */
+
+li:hover {
+    background-color: rgb(140, 98, 248);
+    border-radius: 15%;
+
+}
+
+@media(max-width: 1000px) {
+    .header {
+        display: block;
+
+        .header__logo {
+            width: 40vw;
+            margin: 0 30vw;
+        }
+
+        .nav ul {
+            width: 100vw;
+            padding-left: 0;
+            margin: auto;
+        }
+    }
+}
