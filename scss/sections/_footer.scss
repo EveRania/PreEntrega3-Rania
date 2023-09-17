@@ -8,6 +8,21 @@
     text-align: center;
     font-size: 15px;
 
+    .info {
+        .logo_footer {
+            width: 13rem;
+        }
+
+        ul {
+            padding-left: 0;
+
+            li {
+                list-style: none;
+
+            }
+        }
+    }
+
     .categorias .nav_footer ul {
         padding-left: 0;
 
@@ -24,21 +39,7 @@
     }
 
 
-    .info {
-        .logo_footer {
-            width: 200px;
-            padding-bottom: 15px;
-        }
 
-        ul {
-            padding-left: 0;
-
-            li {
-                list-style: none;
-
-            }
-        }
-    }
 
     .obras_sociales img {
         width: 250px;

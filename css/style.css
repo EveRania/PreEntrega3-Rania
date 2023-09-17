@@ -350,6 +350,12 @@ main .main-servicios {
   justify-content: space-evenly;
   text-align: center;
   font-size: 15px; }
+  .footer .info .logo_footer {
+    width: 13rem; }
+  .footer .info ul {
+    padding-left: 0; }
+    .footer .info ul li {
+      list-style: none; }
   .footer .categorias .nav_footer ul {
     padding-left: 0; }
     .footer .categorias .nav_footer ul li {
@@ -357,13 +363,6 @@ main .main-servicios {
       .footer .categorias .nav_footer ul li a {
         color: #eaeaea;
         text-decoration: none; }
-  .footer .info .logo_footer {
-    width: 200px;
-    padding-bottom: 15px; }
-  .footer .info ul {
-    padding-left: 0; }
-    .footer .info ul li {
-      list-style: none; }
   .footer .obras_sociales img {
     width: 250px; }
   .footer .redes_sociales .iconos_rs {
