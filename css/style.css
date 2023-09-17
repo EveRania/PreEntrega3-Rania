@@ -18,18 +18,18 @@
 .header {
   display: flex;
   justify-content: space-evenly;
-  background-color: #8458f0; }
+  background-color: #8458f0;
+  padding: 0.5rem 0 0.5rem 0; }
   .header .header__logo {
-    width: 300px; }
+    width: 17rem; }
   .header .nav {
     display: flex;
     font-family: 'Montserrat', sans-serif; }
     .header .nav ul {
       display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      min-height: 50px;
-      align-items: center; }
+      align-items: center;
+      margin: 0%;
+      padding: 0%; }
       .header .nav ul li {
         padding: 5px;
         display: flex;
